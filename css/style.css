@@ -1,0 +1,266 @@
+/* ul  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font  */
+html, body{
+    width: 100%;
+    text-transform: capitalize;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.com-gap{
+    padding: 60px 0;
+}
+/* button */
+.btn{
+    display: inline-block;
+    background-color: rgb(4, 137, 137);
+    color: #fff;
+    border: 1px solid rgb(4, 137, 137);
+    padding: 10px 30px;
+    /* border: none; */
+    font-size: 1rem;
+}
+/* hover  */
+.btn:hover{
+    background-color: #fff;
+    color: crimson;
+    border: 1px solid rgb(13, 109, 109);
+    transition: .3s ease;
+}
+/* nav-bar style  */
+.nav-bar{
+    padding: 0 44px;
+}
+.header-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    padding: 10px 44px;
+}
+.header-contact a{
+    color: #fff;
+}
+.navbar-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+.nav-lists{
+    display: flex;
+}
+.nav-lists li{
+    list-style: none;
+    padding-right: 44px;
+}
+.nav-lists li a{
+    font-size: 1.5rem;
+    color: black;
+}
+.icon a{
+    font-size: 3rem;
+    color: black;
+    padding-left: 44px;
+}
+/* nav-bar style  end*/
+
+/* main-------------------------ST */
+/* banner ---ST */
+.banner-section{
+    background-image: url(./slider-bg\ r1.jpg);
+    background-repeat: no-repeat;
+    background-color:grey;
+    background-blend-mode: multiply;
+    background-size: 100% 100%;
+    /* min-height: 100vh; */
+}
+.banner-section-child{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
+    padding: 0 44px;
+}
+.banner-section-child h1{
+    padding-top: 120px;
+    font-size: 3rem;
+    color: #fff;
+}
+.banner-section-child p{
+    font-size: 1.3rem;
+    padding: 30px 0;
+    color: #fff;
+}
+/* banner ---end */
+/* service -[----------St */
+.service-section-child{
+    padding: 0 44px;
+}
+.service-section-child h2{
+    font-size: 2.5rem;
+    padding-top: 40px;
+}
+.col-c{
+    color: blue;
+}
+.service-section-child p{
+    font-size: 1.3rem;
+    padding: 30px 0;
+}
+/* card */
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    background-color: rgb(214, 214, 214);
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+}
+.card figure img{
+    object-fit: cover;
+    width: 100px;
+    height: auto;
+    padding:0 20px;
+    padding-top: 20px;
+}
+.para-service{
+    padding-top: 20px;
+}
+/* service -[----------End */
+/* about st ----------- */
+.about-section-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 44px;
+}
+.about-left{
+    width: 60%;
+    padding-right: 20px;
+}
+.about-left h2{
+    font-size: 2.5rem;
+}
+.about-left p{
+    font-size: 1.3rem;
+    padding: 44px 0;
+}
+/* .about-right{
+    /* width: 50%; */
+
+.about-right figure img{
+    object-fit: cover;
+    max-width: 100%;
+}
+/* about end ----------- */
+
+/* action ----------------st */
+.action-section{
+    background-image: url(./track-bg.jpg);
+    background-color: grey;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.action-section-child{
+    width: 50%;
+    padding: 0 44px;
+}
+.action-section-child h2{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.action-section-child p{
+    font-size: 1.3rem;
+    padding: 24px 0;
+    color: #fff;
+}
+.int-for-action input{
+    padding: 10px;
+    margin-right: -5px;
+}
+/* action ----------------end */
+/* clinet ---------------st */
+.client-section-child{
+    padding: 0 44px;
+}
+.client-section-child h2{
+    font-size: 2.5rem;
+}
+.cliet-reviews{
+    display: flex;
+    justify-content: baseline;
+    align-content: center;
+}
+.cli-review{
+    width: 34%;
+    padding-right: 30px;
+}
+.cli-review p{
+    font-size: 1.3rem;
+}
+.clinet-name{
+    display: flex;
+    align-items: center;
+}
+.arrow-scroll figure img{
+    object-fit: cover;
+    height: 40px;
+    width: auto;
+    background-color: blue;
+}
+/* clinet ---------------end */
+/* .comment st ----------------------- */
+.comment-section-child{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 44px;
+}
+.comment-left h2{
+    font-size: 2.5rem;
+    padding-bottom: 40px ;
+}
+.details-for-com form input{
+    
+    padding: 20px 80px;
+    margin-bottom: 44px;
+    border: 1px solid #ffffff;
+    box-shadow:  0 0 13px;
+}
+.comment-right{
+    padding-left: 20px;
+}
+/* .comment  -----------------------end */
+/* main-------------------------END */
+.footer-section-child{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
